@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.chataplikacioni.chataplikacioni.MainActivity">
+    android:background="@color/endblue"
+    tools:context="com.chataplikacioni.chataplikacioni.MainActivity"
+
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +26,20 @@
             android:textSize="30sp"
             android:textStyle="bold" />
     </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/gradientbackground"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
 
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon" />
+
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,7 +63,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Burim Himaj"
+                android:text="@string/bh"
                 android:textColor="@android:color/background_light" />
 
             <TextView
