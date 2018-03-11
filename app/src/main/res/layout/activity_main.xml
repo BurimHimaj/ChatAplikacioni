@@ -84,6 +84,13 @@
                 android:text="Iradet Nebiu"
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iradet Nebiu
+Aplikacioni eshte ne perpunim "
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
     </LinearLayout>
 
 </FrameLayout>
