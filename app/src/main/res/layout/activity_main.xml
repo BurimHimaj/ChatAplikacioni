@@ -34,8 +34,8 @@
         >
 
         <ImageView
-            android:layout_width="140dp"
-            android:layout_height="135dp"
+            android:layout_width="127dp"
+            android:layout_height="113dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/icon" />
 
@@ -84,13 +84,8 @@
                 android:text="Iradet Nebiu"
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Iradet Nebiu
-Aplikacioni eshte ne perpunim "
-            android:textColor="@android:color/background_light" />
+
     </LinearLayout>
-    </LinearLayout>
+
 
 </FrameLayout>

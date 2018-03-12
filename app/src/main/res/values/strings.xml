@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">ChatAplikacioni</string>
     <string name="am">Agim Morina</string>
+    <string name="bh">Burim Himaj</string>
     <string name="copyright">Autoret e aplikacionit jane:</string>
     <string name="neperpunim">Aplikacioni ne perpunim</string>
 </resources>
