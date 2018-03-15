@@ -22,6 +22,15 @@
             android:textColor="@android:color/background_light"
             android:textSize="30sp"
             android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon" />
+
     </LinearLayout>
 
     <LinearLayout
