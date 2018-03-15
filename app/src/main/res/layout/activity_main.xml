@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/endblue"
-    tools:context="com.chataplikacioni.chataplikacioni.MainActivity">
+    tools:context="com.chataplikacioni.chataplikacioni.MainActivity"
+
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
