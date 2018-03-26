@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="font_size">18sp</dimen>
+    <dimen name="view_top_margin_1">15dp</dimen>
+    <dimen name="view_top_margin_2">30dp</dimen>
+    <dimen name="view_left_margin_1">10dp</dimen>
+    <dimen name="view_left_margin_2">26dp</dimen>
+</resources>
