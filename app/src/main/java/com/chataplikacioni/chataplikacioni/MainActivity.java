@@ -6,13 +6,13 @@ import android.view.View;
 import android.widget.*;
 import android.content.Intent;
 
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
 
 
     private Button kycu;
     private Button autoret;
+    private Button admin;
+    private Button regjistrohu;
 
 
     DatabaseHelper db;
@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
                         Intent myIntent = new Intent(view.getContext(), category.class);
                         startActivity(myIntent);
-                        // startActivityForResult(myIntent, 0);
                     }
                 }
         );
@@ -47,7 +46,32 @@ public class MainActivity extends AppCompatActivity {
 
                         Intent myIntent = new Intent(view.getContext(), About.class);
                         startActivity(myIntent);
-                        // startActivityForResult(myIntent, 0);
+                    }
+                }
+        );
+
+        admin =  findViewById(R.id.admin);
+
+        admin.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        Intent myIntent = new Intent(view.getContext(), Admin.class);
+                        startActivity(myIntent);
+                    }
+                }
+        );
+
+        regjistrohu =  findViewById(R.id.regjistrohu);
+
+        regjistrohu.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        Intent myIntent = new Intent(view.getContext(), Regjistrohu.class);
+                        startActivity(myIntent);
                     }
                 }
         );

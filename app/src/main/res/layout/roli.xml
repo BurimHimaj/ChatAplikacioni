@@ -31,34 +31,34 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tKategori"
+        android:id="@+id/tRoli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/kategori"
+        android:text="@string/roli"
         android:layout_below="@id/layoutlogo"
         android:layout_marginLeft="@dimen/view_left_margin_1"
         android:layout_marginTop="@dimen/view_top_margin_1"
-        android:labelFor="@id/etKategori"
+        android:labelFor="@id/etRoli"
         android:textSize="@dimen/font_size"/>
 
     <EditText
-        android:id="@+id/etKategori"
+        android:id="@+id/etRoli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/layoutlogo"
-        android:layout_alignBaseline="@id/tKategori"
-        android:layout_toEndOf="@id/tKategori"
+        android:layout_alignBaseline="@id/tRoli"
+        android:layout_toEndOf="@id/tRoli"
         android:layout_marginStart="@dimen/view_left_margin_1"
         android:ems="9"
         android:textSize="@dimen/font_size"/>
 
     <Button
-    android:id="@+id/add"
+        android:id="@+id/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/layoutlogo"
-        android:layout_alignBaseline="@id/tKategori"
-        android:layout_toEndOf="@id/etKategori"
+        android:layout_alignBaseline="@id/tRoli"
+        android:layout_toEndOf="@id/etRoli"
         android:layout_marginTop="@dimen/view_top_margin_1"
         android:textSize="@dimen/font_size"
         android:text="@string/add"/>
@@ -78,6 +78,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/view_left_margin_1"
         android:textSize="@dimen/font_size"
-        android:id="@+id/categoryList">
+        android:id="@+id/roliList">
     </ListView>
 </RelativeLayout>
