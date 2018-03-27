@@ -24,6 +24,25 @@
     <string name="mbiemri">Mbimri</string>
     <string name="parulla">Parulla</string>
     <string name="vendi">Vendi</string>
+    <string name="hint_name">Emri</string>
+    <string name="hint_email">Emaili</string>
+    <string name="hint_password">Passwordi</string>
+    <string name="hint_confirm_password">Konfirmo Passwordin</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Regjistrohu</string>
+    <string name="error_message_name">Shkruani emrin e plote</string>
+    <string name="error_message_email">Shkruani email valid</string>
+    <string name="error_message_age">Shkruani Moshen</string>
+    <string name="error_message_password">Shkruani Passwordin</string>
+    <string name="success_message">Regjistrimi u krye me Sukess</string>
+    <string name="text_not_member">Nuk keni account akoma? Krijo nje</string>
+    <string name="text_already_member">Tashme i regjistruar? Login</string>
+    <string name="error_email_exists">Email egziston tashme</string>
+    <string name="error_password_match">Passwordi nuk mjafton</string>
+    <string name="error_valid_email_password">Email ose paswordi gabim</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">MireseVini</string>
+    <string name="text_title"></string>
 
     <string-array name="roli">
         <item>Zgjedhe Rolin</item>
