@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="horizontal">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.chataplikacioni.chataplikacioni.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="127dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/troli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roli"
+        android:layout_below="@id/layoutlogo"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/roliSpiner"
+        android:textSize="@dimen/font_size"/>
+
+    <Spinner
+        android:id="@+id/roliSpiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutlogo"
+        android:layout_alignBaseline="@id/layoutlogo"
+        android:layout_toEndOf="@id/troli"
+        android:layout_marginStart="@dimen/view_left_margin_1"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:entries="@array/roli" />
+
+    <TextView
+        android:id="@+id/temri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emri"
+        android:layout_below="@id/troli"
+        android:layout_alignStart="@id/troli"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/etemri"
+        android:textSize="@dimen/font_size"/>
+    <EditText
+        android:id="@+id/etemri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/troli"
+        android:layout_alignBaseline="@id/temri"
+        android:layout_alignStart="@id/etshfrytezuesi"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:ems="11"
+        android:textSize="@dimen/font_size"/>
+    <TextView
+        android:id="@+id/tmbiemri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mbiemri"
+        android:layout_below="@id/temri"
+        android:layout_alignStart="@id/troli"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/etmbiemri"
+        android:textSize="@dimen/font_size"/>
+    <EditText
+        android:id="@+id/etmbiemri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temri"
+        android:layout_alignBaseline="@id/tmbiemri"
+        android:layout_alignStart="@id/etshfrytezuesi"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:ems="11"
+        android:textSize="@dimen/font_size"/>
+
+    <TextView
+        android:id="@+id/tshfrytezuesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shfrytezuesi"
+        android:layout_below="@id/tmbiemri"
+        android:layout_alignStart="@id/troli"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/etshfrytezuesi"
+        android:textSize="@dimen/font_size"/>
+    <EditText
+        android:id="@+id/etshfrytezuesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmbiemri"
+        android:layout_alignBaseline="@id/tshfrytezuesi"
+        android:layout_toEndOf="@id/tshfrytezuesi"
+        android:layout_marginStart="@dimen/view_left_margin_1"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:ems="11"
+        android:textSize="@dimen/font_size"/>
+
+    <TextView
+        android:id="@+id/tparulla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parulla"
+        android:layout_below="@id/tshfrytezuesi"
+        android:layout_alignStart="@id/troli"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/etparulla"
+        android:textSize="@dimen/font_size"/>
+    <EditText
+        android:id="@+id/etparulla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tshfrytezuesi"
+        android:layout_alignBaseline="@id/tparulla"
+        android:layout_alignStart="@id/etshfrytezuesi"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:ems="11"
+        android:textSize="@dimen/font_size"/>
+
+    <TextView
+        android:id="@+id/tvendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vendi"
+        android:layout_below="@id/tparulla"
+        android:layout_alignStart="@id/troli"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/etvendi"
+        android:textSize="@dimen/font_size"/>
+    <EditText
+        android:id="@+id/etvendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tparulla"
+        android:layout_alignBaseline="@id/tvendi"
+        android:layout_alignStart="@id/etshfrytezuesi"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:ems="11"
+        android:textSize="@dimen/font_size"/>
+
+    <TextView
+        android:id="@+id/tKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kategori"
+        android:layout_below="@id/tvendi"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/roliKategori"
+        android:textSize="@dimen/font_size"/>
+
+    <Spinner
+        android:id="@+id/roliKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvendi"
+        android:layout_alignBaseline="@id/tKategori"
+        android:layout_toEndOf="@id/tKategori"
+        android:layout_marginStart="@dimen/view_left_margin_1"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:entries="@array/kategori"/>
+
+    <Button
+        android:id="@+id/regjistrohu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regjistrohu"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tKategori"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:textSize="@dimen/font_size"/>
+
+</RelativeLayout>
+</ScrollView>

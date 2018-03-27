@@ -7,4 +7,35 @@
 
     <string name="copyright">Autoret e aplikacionit jane:</string>
     <string name="neperpunim">Aplikacioni ne perpunim</string>
+    <string name="shfrytezuesi">Shfrytezuesi</string>
+    <string name="tparulla">Parulla</string>
+    <string name="kycu">Kycu</string>
+    <string name="regjistrohu">Regjistrohu</string>
+    <string name="autoret">Autoret</string>
+
+    <string name="add">Shto</string>
+    <string name="refresh">Refresh</string>
+    <string name="kategori">Kategori</string>
+    <string name="roli">Roli</string>
+    <string name="klient">Klienti</string>
+    <string name="mjeku">Mjeku</string>
+    <string name="admin">Administrator</string>
+    <string name="emri">Emri</string>
+    <string name="mbiemri">Mbimri</string>
+    <string name="parulla">Parulla</string>
+    <string name="vendi">Vendi</string>
+
+    <string-array name="roli">
+        <item>Zgjedhe Rolin</item>
+        <item>Mjek</item>
+        <item>Klient</item>
+    </string-array>
+
+    <string-array name="kategori">
+        <item>Zgjedhe Kategorin</item>
+        <item>Mjek Pergjithshem</item>
+        <item>Dentist</item>
+        <item>Pediater</item>
+        <item>Ortoped</item>
+    </string-array>
 </resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.chataplikacioni.chataplikacioni.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="127dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tshfrytezuesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shfrytezuesi"
+        android:layout_below="@id/layoutlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/etshfrytezuesi"
+        android:textSize="@dimen/font_size"/>
+
+    <EditText
+        android:id="@+id/etshfrytezuesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutlogo"
+        android:layout_alignBaseline="@id/tshfrytezuesi"
+        android:layout_toEndOf="@id/tshfrytezuesi"
+        android:layout_marginStart="@dimen/view_left_margin_1"
+        android:ems="5"
+        android:textSize="@dimen/font_size"/>
+
+    <TextView
+        android:id="@+id/tparulla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tparulla"
+        android:layout_below="@id/tshfrytezuesi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:labelFor="@id/etparulla"
+        android:textSize="@dimen/font_size"/>
+
+    <EditText
+        android:id="@+id/etparulla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etshfrytezuesi"
+        android:layout_alignBaseline="@id/tparulla"
+        android:layout_toEndOf="@id/tparulla"
+        android:ems="5"
+        android:textSize="@dimen/font_size"
+        android:layout_alignStart="@id/etshfrytezuesi"/>
+
+    <Button
+        android:id="@+id/kycu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kycu"
+        android:layout_below="@id/tparulla"
+        android:layout_marginLeft="@dimen/view_left_margin_1"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:textSize="@dimen/font_size"/>
+    <Button
+        android:id="@+id/regjistrohu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regjistrohu"
+        android:layout_toEndOf="@id/kycu"
+        android:layout_marginLeft="@dimen/view_left_margin_1"
+        android:layout_below="@id/tparulla"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:textSize="@dimen/font_size"/>
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin"
+        android:layout_toEndOf="@id/regjistrohu"
+        android:layout_marginLeft="@dimen/view_left_margin_1"
+        android:layout_below="@id/tparulla"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:textSize="@dimen/font_size"/>
+
+    <Button
+        android:id="@+id/autoret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/autoret"
+        android:layout_toEndOf="@id/admin"
+        android:layout_marginLeft="@dimen/view_left_margin_1"
+        android:layout_below="@id/tparulla"
+        android:layout_marginTop="@dimen/view_top_margin_1"
+        android:textSize="@dimen/font_size"/>
+
+
+</RelativeLayout>
