@@ -24,6 +24,7 @@
     <string name="mbiemri">Mbimri</string>
     <string name="parulla">Parulla</string>
     <string name="vendi">Vendi</string>
+
     <string name="hint_name">Emri</string>
     <string name="hint_email">Emaili</string>
     <string name="hint_password">Passwordi</string>
