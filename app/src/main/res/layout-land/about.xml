@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="127dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            android:textColor="@android:color/background_light"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bh"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rj"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/am"
+            android:textColor="@android:color/background_light" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+</FrameLayout>
