@@ -23,6 +23,12 @@
         <activity
             android:name=".activities.UsersActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".activities.Gjenekolog" />
+        <activity android:name=".activities.Neurolog" />
+        <activity android:name=".activities.Kirurg" />
+        <activity android:name=".activities.Psikiater" />
+        <activity android:name=".activities.Pediater" />
+        <activity android:name=".activities.Kardiolog"></activity>
     </application>
 
 </manifest>
